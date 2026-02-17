@@ -1,6 +1,8 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import redirect, render
+from .models import Task
 
 
 def addTask(request):
-    return HttpResponse("The form is submitted")
+    task = request.POST["task"]
+    Task.objects.create(task=task)
+    return redirect("home")
