@@ -32,7 +32,7 @@ A simple **Django-based ToDo application** that allows users to manage their dai
 
 ```bash
 git clone https://github.com/iibrahimx/django-todo.git
-cd ToDo
+cd django-todo
 ```
 
 2. **Create and activate a virtual environment (recommended)**
