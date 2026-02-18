@@ -31,7 +31,7 @@ A simple **Django-based ToDo application** that allows users to manage their dai
 1. **Clone the repository**
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/iibrahimx/django-todo.git
 cd ToDo
 ```
 
@@ -80,7 +80,7 @@ ToDo/
 │── manage.py
 │── db.sqlite3
 │── todo_main/          # Main Django app
-│── todo/               # Secondary app (if used)
+│── todo/               # Secondary app
 │── templates/          # HTML templates
 │── venv/               # Virtual environment
 │── README.md
